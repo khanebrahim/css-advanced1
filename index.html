@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+           font-family: Arial, Helvetica, sans-serif; 
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            font-size: 25px;
+            border: 1px solid black;
+            
+            
+
+        }
+        #box-1{
+            background:coral ;
+            top: 100px;
+            left:50px;
+            z-index: 1;
+            
+            
+        }
+        #box-2{
+            background: red;
+            top: 150px;
+            left: 100px; 
+            z-index: 2;
+              
+        }
+        #box-3{
+            background: gold;
+            top: 200px;
+            left: 150px;
+            z-index: 3;
+            
+}
+       #box-4{
+            background: rgb(0, 255, 242);
+            top: 250px;
+            left: 200px;
+            z-index: 4;
+            
+}
+
+    </style>
+</head>
+<body>
+    <h1>Z-index</h1>
+    <div id="box-1">A</div>
+    <div id="box-2">B</div>
+    <div id="box-3">C</div>
+    <div id="box-4">D</div>
+</body>
+</html>
